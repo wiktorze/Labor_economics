@@ -1,0 +1,42 @@
+\begin{table}[htbp]\centering
+\caption{TABLE 1: Differences-in-differences with continuous treatment - Region West South Central, quarterly}
+\begin{tabular}{l*{4}{D{.}{.}{-1}}}
+\toprule
+          &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+          &\multicolumn{1}{c}{realwage\_hourly}&\multicolumn{1}{c}{realwage\_daily}&\multicolumn{1}{c}{realwage\_hourly}&\multicolumn{1}{c}{realwage\_daily}\\
+\midrule
+treatment\_frac&   0.0462&    0.111&    0.119&    1.241\\
+          &  (0.204)&  (1.866)&  (0.211)&  (1.617)\\
+\midrule
+\(N\)     &      376&      532&      176&      176\\
+adj. \(R^{2}\)&    0.944&    0.950&    0.932&    0.898\\
+N\_clust   &        4&        4&        4&        4\\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\end{tabular}
+\end{table}
+\begin{table}[htbp]\centering
+\caption{TABLE 1: Semielasticities, DD with continuous treatment, Region West South Central, quarterly}
+\begin{tabular}{l*{4}{D{.}{.}{-1}}}
+\toprule
+          &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+          &\multicolumn{1}{c}{ln\_realwage\_hourly}&\multicolumn{1}{c}{ln\_realwage\_daily}&\multicolumn{1}{c}{ln\_realwage\_hourly}&\multicolumn{1}{c}{ln\_realwage\_daily}\\
+\midrule
+treatment\_frac&  -0.0377&   -0.137&   0.0715&   0.0869\\
+          &  (0.408)&  (0.474)&  (0.357)&  (0.325)\\
+\midrule
+\(N\)     &      376&      532&      176&      176\\
+adj. \(R^{2}\)&    0.915&    0.931&    0.899&    0.861\\
+N\_clust   &        4&        4&        4&        4\\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\end{tabular}
+\end{table}
+% matrix: pvals file: tables_bracero_limited_treatment.tex   5 Nov 2023 21:30:35
+\begin{table}[htbp]
+\caption{\label{clabel} TABLE 1: p vals of semielasticities}\centering\medskip
+\begin{tabular}{lllll} \hline \hline
+ \multicolumn{1}{c}{ r1 }  & r1  & r1  & r1  \\  \hline 
+0.7578 & 0.6513 & 0.9415 & 0.9705 \\  
+\hline \hline \end{tabular}
+\end{table}

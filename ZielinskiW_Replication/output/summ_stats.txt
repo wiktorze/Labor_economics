@@ -1,0 +1,180 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/mac/Documents/Labor/bracero/output/summ_stats.txt
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 5 Nov 2023, 21:30:43
+{txt}
+{com}. dis "Quarterly"
+{res}Quarterly
+{txt}
+{com}. sutex Year quarter realwage_hourly realwage_daily ln_Mexican ln_NonMexican treatment_frac, minmax
+%------- Begin LaTeX code -------%
+
+\begin{table}[htbp]\centering \caption{Summary statistics \label{sumstat}}
+\begin{tabular}{l c c c c c}\hline\hline
+\multicolumn{1}{c}{\textbf{Variable}} & \textbf{Mean}
+ & \textbf{Std. Dev.}& \textbf{Min.} &  \textbf{Max.} & \textbf{N}\\ \hline
+Year & 1958.128 & 9.6 & 1942 & 1975 & 6384\\
+quarter & 2.489 & 1.121 & 1 & 4 & 6384\\
+realwage\_hourly & 0.905 & 0.222 & 0.154 & 1.578 & 4512\\
+realwage\_daily & 8.604 & 2.28 & 2.087 & 15.169 & 6077\\
+ln\_Mexican & 6.343 & 2.436 & 0 & 11.828 & 783\\
+ln\_NonMexican & 9.118 & 1.44 & 2.89 & 12.431 & 1759\\
+treatment\_frac & 0.016 & 0.068 & 0 & 0.641 & 6251\\
+\hline
+\end{tabular}
+\end{table}
+%------- End LaTeX code -------%
+{txt}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/mac/Documents/Labor/bracero/output/summ_stats.txt
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 5 Nov 2023, 21:30:43
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/mac/Documents/Labor/bracero/output/summ_stats.txt
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 5 Nov 2023, 21:31:47
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. dis "Monthly"
+{res}Monthly
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. sutex Year Month domestic_seasonal Local_final Intrastate_final Interstate_final ln_domestic_seasonal ln_local ln_intrastate ln_interstate ln_Mexican treatment_frac, minmax
+%------- Begin LaTeX code -------%
+
+\begin{table}[htbp]\centering \caption{Summary statistics \label{sumstat}}
+\begin{tabular}{l c c c c c}\hline\hline
+\multicolumn{1}{c}{\textbf{Variable}} & \textbf{Mean}
+ & \textbf{Std. Dev.}& \textbf{Min.} &  \textbf{Max.} & \textbf{N}\\ \hline
+Year & 1959.144 & 9.323 & 1942 & 1975 & 15830\\
+Month & 6.482 & 3.409 & 1 & 12 & 15830\\
+domestic\_seasonal & 11974.255 & 27401.271 & 0 & 260941 & 10777\\
+Local\_final & 9479.707 & 22438.368 & 0 & 248050 & 10777\\
+Intrastate\_final & 1627.754 & 5746.037 & 0 & 118315 & 6475\\
+Interstate\_final & 2523.787 & 4361.898 & 0 & 46643 & 6476\\
+ln\_domestic\_seasonal & 8.960 & 1.457 & 1.386 & 12.472 & 6491\\
+ln\_local & 8.676 & 1.524 & 1.386 & 12.421 & 6844\\
+ln\_intrastate & 6.061 & 1.897 & 0.693 & 11.681 & 4721\\
+ln\_interstate & 6.842 & 1.783 & 0.693 & 10.75 & 5842\\
+ln\_Mexican & 6.321 & 2.467 & 0 & 11.828 & 2417\\
+treatment\_frac & 0.018 & 0.071 & 0 & 0.641 & 15505\\
+\hline
+\end{tabular}
+\end{table}
+%------- End LaTeX code -------%
+{txt}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/mac/Documents/Labor/bracero/output/summ_stats.txt
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 5 Nov 2023, 21:31:47
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/mac/Documents/Labor/bracero/output/summ_stats.txt
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 5 Nov 2023, 21:31:50
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. dis "Mechanization, annual"
+{res}Mechanization, annual
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. sutex Year Cotton_machine Sugarbeet_machine ln_Mexican treatment_frac, minmax
+%------- Begin LaTeX code -------%
+
+\begin{table}[htbp]\centering \caption{Summary statistics \label{sumstat}}
+\begin{tabular}{l c c c c c}\hline\hline
+\multicolumn{1}{c}{\textbf{Variable}} & \textbf{Mean}
+ & \textbf{Std. Dev.}& \textbf{Min.} &  \textbf{Max.} & \textbf{N}\\ \hline
+Year & 1963 & 7.214 & 1951 & 1975 & 1200\\
+Cotton\_machine & 0.526 & 0.375 & 0 & 1 & 344\\
+Sugarbeet\_machine & 0.414 & 0.263 & 0 & 0.92 & 52\\
+ln\_Mexican & 6.037 & 2.041 & 2.204 & 11.218 & 299\\
+treatment\_frac & 0.023 & 0.08 & 0 & 0.641 & 1175\\
+\hline
+\end{tabular}
+\end{table}
+%------- End LaTeX code -------%
+{txt}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/mac/Documents/Labor/bracero/output/summ_stats.txt
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 5 Nov 2023, 21:31:50
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/mac/Documents/Labor/bracero/output/summ_stats.txt
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 5 Nov 2023, 21:32:01
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. dis "Crop production, annual"
+{res}Crop production, annual
+{txt}
+{com}. dis ""
+{res}
+{txt}
+{com}. sutex Year Tomatoes_total64_rel Cotton64_rel SugarBeets64_rel Asparagus_total64_rel Strawberries_fresh64_rel Lettuce64_rel Celery64_rel Cucumbers_pickle64_rel Citrus64_rel ln_Mexican treatment_frac, minmax
+%------- Begin LaTeX code -------%
+
+\begin{table}[htbp]\centering \caption{Summary statistics \label{sumstat}}
+\begin{tabular}{l c c c c c}\hline\hline
+\multicolumn{1}{c}{\textbf{Variable}} & \textbf{Mean}
+ & \textbf{Std. Dev.}& \textbf{Min.} &  \textbf{Max.} & \textbf{N}\\ \hline
+Year & 1958.5 & 9.814 & 1942 & 1975 & 1632\\
+Tomatoes\_total64\_rel & 112.205 & 52.302 & 0 & 433.333 & 544\\
+Cotton64\_rel & 83.162 & 32.698 & 1.471 & 222.54 & 301\\
+SugarBeets64\_rel & 93.637 & 33.953 & 0 & 239.965 & 240\\
+Asparagus\_total64\_rel & 99.406 & 24.755 & 0 & 162.264 & 144\\
+Strawberries\_fresh64\_rel & 107.856 & 64.745 & 10.087 & 520 & 434\\
+Lettuce64\_rel & 111.163 & 61.193 & 31.586 & 681.592 & 276\\
+Celery64\_rel & 131.24 & 113.755 & 41.176 & 986.667 & 162\\
+Cucumbers\_pickle64\_rel & 131.184 & 61.445 & 41.698 & 425.139 & 106\\
+Citrus64\_rel & 132.055 & 83.433 & 3.819 & 427.083 & 64\\
+ln\_Mexican & 5.95 & 1.929 & 1.712 & 11.218 & 408\\
+treatment\_frac & 0.017 & 0.069 & 0 & 0.641 & 1598\\
+\hline
+\end{tabular}
+\end{table}
+%------- End LaTeX code -------%
+{txt}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/mac/Documents/Labor/bracero/output/summ_stats.txt
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 5 Nov 2023, 21:32:01
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
